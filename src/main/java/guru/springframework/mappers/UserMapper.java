@@ -6,7 +6,9 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 /**
- * Created by jt on 2018-12-09.
+ * Write this mapper
+ * For different field names, we will need to add @Mappings annotation
+ * see https://www.baeldung.com/mapstruct
  */
 @Mapper
 public interface UserMapper {
