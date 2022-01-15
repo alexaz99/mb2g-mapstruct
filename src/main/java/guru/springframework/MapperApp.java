@@ -6,7 +6,6 @@ import guru.springframework.domain.User;
 import guru.springframework.mappers.CarMapper;
 import guru.springframework.mappers.UserMapper;
 import guru.springframework.model.UserCommand;
-import org.mapstruct.factory.Mappers;
 
 public class MapperApp {
 
