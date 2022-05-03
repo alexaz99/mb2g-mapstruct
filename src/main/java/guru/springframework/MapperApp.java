@@ -11,7 +11,10 @@ public class MapperApp {
 
     public static void main(String[] args) {
 
-        UserCommand source = new UserCommand("Alex", "Tester", "tester@abc.com");
+        // UserCommand Should have setters/ getters
+        UserCommand source = new UserCommand("Alex", "Tester", "tester@abc.com", "Desc");
+
+        // User Should have setters/ getters
         User destination = UserMapper.INSTANCE.userCommandToUser(source);
         System.out.println(destination);
 

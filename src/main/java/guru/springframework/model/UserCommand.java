@@ -8,13 +8,16 @@ public class UserCommand {
     private String lastName;
     private String email;
 
+    private String desc;
+
     public UserCommand() {
     }
 
-    public UserCommand(String firstName, String lastName, String email) {
+    public UserCommand(String firstName, String lastName, String email, String desc) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.desc = desc;
     }
 
     public String getFirstName() {
@@ -39,6 +42,14 @@ public class UserCommand {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     @Override
