@@ -7,6 +7,7 @@ import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 /**
+ * Write this mapper
  * Define this interface to convert for / to both ways
  * mapstruct plugin goal will generate the class to convert.
  * Click on implementayion, line 15
