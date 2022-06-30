@@ -9,6 +9,8 @@ import org.mapstruct.factory.Mappers;
  * Write this mapper
  * For different field names, we will need to add @Mappings annotation
  * see https://www.baeldung.com/mapstruct
+ *
+ * https://stackabuse.com/guide-to-mapstruct-in-java-advanced-mapping-library/
  */
 @Mapper
 public interface UserMapper {
