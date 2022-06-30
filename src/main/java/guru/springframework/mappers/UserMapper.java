@@ -11,6 +11,10 @@ import org.mapstruct.factory.Mappers;
  * see https://www.baeldung.com/mapstruct
  *
  * https://stackabuse.com/guide-to-mapstruct-in-java-advanced-mapping-library/
+ *
+ * Define this interface to convert for / to both ways
+ * mapstruct plugin goal will generate the class to convert.
+ * Click on implementayion, line 20
  */
 @Mapper
 public interface UserMapper {
